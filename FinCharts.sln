@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinCharts.Api", "FinCharts.Api\FinCharts.Api.csproj", "{85802FC5-98AA-48D5-A3BD-381AD612C96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinCharts.Application", "FinCharts.Application\FinCharts.Application.csproj", "{7A4B2888-89A3-4C48-A693-7BF4C783954C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinCharts.Contracts", "FinCharts.Contracts\FinCharts.Contracts.csproj", "{21D9C6CF-0E84-444E-9ACE-1C215954E76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinCharts.Domain", "FinCharts.Domain\FinCharts.Domain.csproj", "{039E9C0B-465B-43F1-988B-AA442E8CC7DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinCharts.Infrastructure", "FinCharts.Infrastructure\FinCharts.Infrastructure.csproj", "{5DED36D0-65B0-4DA7-9DFF-823F09A495ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85802FC5-98AA-48D5-A3BD-381AD612C96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85802FC5-98AA-48D5-A3BD-381AD612C96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85802FC5-98AA-48D5-A3BD-381AD612C96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85802FC5-98AA-48D5-A3BD-381AD612C96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4B2888-89A3-4C48-A693-7BF4C783954C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4B2888-89A3-4C48-A693-7BF4C783954C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4B2888-89A3-4C48-A693-7BF4C783954C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4B2888-89A3-4C48-A693-7BF4C783954C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D9C6CF-0E84-444E-9ACE-1C215954E76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D9C6CF-0E84-444E-9ACE-1C215954E76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D9C6CF-0E84-444E-9ACE-1C215954E76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D9C6CF-0E84-444E-9ACE-1C215954E76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{039E9C0B-465B-43F1-988B-AA442E8CC7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039E9C0B-465B-43F1-988B-AA442E8CC7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039E9C0B-465B-43F1-988B-AA442E8CC7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{039E9C0B-465B-43F1-988B-AA442E8CC7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DED36D0-65B0-4DA7-9DFF-823F09A495ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DED36D0-65B0-4DA7-9DFF-823F09A495ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DED36D0-65B0-4DA7-9DFF-823F09A495ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DED36D0-65B0-4DA7-9DFF-823F09A495ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

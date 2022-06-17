@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a8c86b8b-4d3d-4042-be4f-f3c5fb7bc29e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinCharts.Contracts\FinCharts.Contracts.csproj" />
+    <ProjectReference Include="..\FinCharts.Application\FinCharts.Application.csproj" />
+    <ProjectReference Include="..\FinCharts.Infrastructure\FinCharts.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
